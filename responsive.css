@@ -11,9 +11,9 @@
 
     /*Header And Footer*/
     .textcont {
-        top: 211px;
+        top: 170px;
         bottom: -98px;
-        right: 133px;
+        right: 240px;
         direction: rtl;
         width: 62%;
         height: 175px;
@@ -31,7 +31,16 @@
     }
 
 
-
+    button.imgprev.slick-arrow img{
+        width: 4vw;
+        left: 90px;
+    
+    }
+    button.imgnext.slick-arrow img {
+        width: 4vw;
+    
+        right: 150px;
+    }
 
     .text{
         font-size: 1.1vw;
@@ -84,7 +93,7 @@ width: 3vw;
 
     .nav-item .nav-link {
 
-        font-size: 0.65vw;
+        font-size: 0.5vw;
         height: 10px;
 
     }
@@ -826,6 +835,15 @@ width: 3vw;
     }
     .text{
         font-size: 1.2vw;
+    }button.imgprev.slick-arrow img{
+        width: 5vw;
+        left: 60px;
+    
+    }
+    button.imgnext.slick-arrow img {
+        width: 5vw;
+    
+        right: 75px;
     }
 
 
@@ -1626,7 +1644,16 @@ width: 3vw;
     }
 
 
-
+    button.imgprev.slick-arrow img{
+        width: 5vw;
+        left: 60px;
+    
+    }
+    button.imgnext.slick-arrow img {
+        width: 5vw;
+    
+        right: 77px;
+    }
 
     a.showmoredescfooter:after {
         position: absolute;
@@ -2403,16 +2430,16 @@ width: 4vw;
     .valuescard .col-sm-3 {
         width: 50%;
     }
-    button.imgprev.slick-arrow img
-    {
-        width: 7vw;
+    button.imgprev.slick-arrow img{
+        width: 6vw;
+        left: 40px;
+    
     }
-
-    button.imgnext.slick-arrow img
-    {width: 7vw;
-
+    button.imgnext.slick-arrow img {
+        width: 6vw;
+    
+        right: 60px;
     }
-
     body {
         overflow-x: hidden;
 
@@ -3229,26 +3256,35 @@ width: 4vw;
         height: 1px;
     }
     .textcont {
-        position: absolute;
+ 
         top: 32px;
         bottom: -98px;
-        right: 133px;
+        right: 67px;
         direction: rtl;
-        background-color: rgb(35, 31, 32);
-        opacity: 0.71;
+
         width: 65%;
-        height: 140px;
-        padding: 25px;
-        color: white;
+        height: 108px;
+        padding: 14px;
+
         bottom: 0px;
     }
 
-.apply {
-    width: 90px;
-    height: 30px;
-    color: #ffff;
-    font-size: 1.2vw;
-    margin-bottom: 25px;
+    .apply {
+        width: 52px;
+        height: 19px;
+        color: #ffff;
+        font-size: 1vw;
+        margin-bottom: 25px;
+    }
+button.imgprev.slick-arrow img{
+    width: 6vw;
+    left: 25px;
+
+}
+button.imgnext.slick-arrow img {
+    width: 6vw;
+
+    right: 26px;
 }
 .next img {
   width: 3vw;
@@ -4046,7 +4082,7 @@ width: 4vw;
     button.imgnext.slick-arrow img {
         width: 6vw;
     
-        right: 2px;
+        right: 26px;
     }
     .footer .col-sm-3 a
     {
