@@ -20,6 +20,19 @@
         padding: 25px;
         bottom: 0px;
     }
+
+    a.showmoredescfooter:after {
+        
+        right: 9px;
+        bottom: 42px;
+ 
+        width: 58px;
+    
+    }
+
+
+
+
     .text{
         font-size: 1.1vw;
     }
@@ -47,7 +60,7 @@ width: 3vw;
         font-size: 0.6rem;
     }
 
-    .footer .col-sm-3 a,
+    .footer .col-sm-3 a,.footer .col-sm-3  a.showmoredescfooter,
 
     .social i {
 
@@ -741,6 +754,52 @@ width: 3vw;
     width: 68%;
     font-size: 2vw;
 }
+/*News 2 Page */
+.newsdate {
+    font-size: 10px;
+    margin-top: 194px;
+}
+
+.newshead {
+    font-size: 15px;
+}
+
+.newsdesc
+{
+    font-size: 10px;
+}
+.imgnewsback img {
+    width: 92%;
+    height: 185px;
+}
+.col-sm-4.newsconnectionlinks {
+    width: 40%;
+
+   
+}
+.col-sm-8.newsbackdesc {
+    width: 60%;
+ 
+}
+.connectionheader {
+    font-size: 1.2vw;
+}
+
+.descriptioncontainer
+{
+    top: 0;
+}
+.descriptioncontainermargin {
+    padding: 17px;
+}
+.descnewslinks, .newsdate1 {
+    font-size: 10px;
+    width: 82%;
+}
+.news1.row {
+   
+    height: 75px;
+}
 
 
 }
@@ -768,6 +827,16 @@ width: 3vw;
     .text{
         font-size: 1.2vw;
     }
+
+
+    a.showmoredescfooter:after {
+
+        right: 9px;
+        bottom: 49px;
+       
+        width: 58px;
+    
+    }
 .apply {
     width: 90px;
     height: 30px;
@@ -793,7 +862,7 @@ width: 3vw;
     }
 
     .footer .col-sm-3 a,
-
+    .footer .col-sm-3  a.showmoredescfooter,
     .social i {
 
         font-size: 0.8rem;
@@ -1480,6 +1549,54 @@ width: 3vw;
     font-size: 2vw;
 }
 
+/*News 2 Page */
+.newsdate
+{
+    font-size: 1vw;
+    margin-top: 200px;
+}
+
+
+.newshead
+{
+    font-size: 1.2vw;
+}
+
+.newsdesc
+{
+    font-size: 10px;
+}
+.imgnewsback img {
+    width: 93%;
+    height: 185px;
+}
+.col-sm-4.newsconnectionlinks {
+    width: 50%;
+
+   
+}
+.col-sm-8.newsbackdesc {
+    width: 50%;
+    margin-bottom: 21rem;
+}
+.connectionheader {
+    font-size: 1.2vw;
+}
+
+.descriptioncontainer
+{
+    top: 0;
+}
+.descriptioncontainermargin {
+    padding: 17px;
+}
+.descnewslinks,.newsdate1 {
+    font-size: 10px;
+}
+.news1.row {
+   
+    height: 94px;
+}
 
 
 }
@@ -1506,6 +1623,18 @@ width: 3vw;
         height: 175px;
         padding: 25px;
         bottom: 0px;
+    }
+
+
+
+
+    a.showmoredescfooter:after {
+        position: absolute;
+        right: 9px;
+        bottom: 53px;
+    
+        width: 55px;
+ 
     }
     .text{
         font-size: 1.2vw;
@@ -1536,7 +1665,7 @@ width: 4vw;
     }
 
     .footer .col-sm-3 a,
-
+    .footer .col-sm-3  a.showmoredescfooter,
     .social i {
 
         font-size: .75rem;
@@ -2216,6 +2345,57 @@ width: 4vw;
     width: 68%;
     font-size: 2vw;
 }
+/*News 2 Page */
+.newsdate
+{
+    font-size: 1vw;
+    margin-top: 200px;
+}
+
+
+.newshead
+{
+    font-size: 1.2vw;
+}
+
+.newsdesc
+{
+    font-size: 0.9vw;
+}
+.imgnewsback img {
+    width: 94%;
+    height: 185px;
+}
+.col-sm-4.newsconnectionlinks {
+    width: 50%;
+
+   
+}
+.col-sm-8.newsbackdesc {
+    width: 50%;
+    margin-bottom: 21rem;
+}
+.connectionheader {
+    font-size: 1.2vw;
+}
+
+.descriptioncontainer
+{
+    top: 0;
+}
+.descriptioncontainermargin
+{
+    padding: 0;
+}
+.descnewslinks,.newsdate1 {
+    font-size: 1vw;
+}
+.news1.row {
+   
+    height: 94px;
+}
+
+
 
 }
 
@@ -2223,7 +2403,15 @@ width: 4vw;
     .valuescard .col-sm-3 {
         width: 50%;
     }
+    button.imgprev.slick-arrow img
+    {
+        width: 7vw;
+    }
 
+    button.imgnext.slick-arrow img
+    {width: 7vw;
+
+    }
 
     body {
         overflow-x: hidden;
@@ -2231,16 +2419,22 @@ width: 4vw;
     }
 
     /*Header And Footer*/
-
+    a.showmoredescfooter:after {
+        position: absolute;
+        right: 9px;
+        bottom: 63px;
+        content: '';
+        width: 52px;
+        background-color: white;
+        height: 1px;
+    }
     .textcont {
- 
         top: 50px;
         bottom: -98px;
         right: 133px;
         direction: rtl;
-  
         width: 62%;
-        height: 180px;
+        height: 156px;
         padding: 25px;
         bottom: 0px;
     }
@@ -2268,7 +2462,7 @@ width: 4vw;
     }
 
     .footer .col-sm-3 a,
-
+    .footer .col-sm-3  a.showmoredescfooter,
     .social i {
 
         font-size: .7rem;
@@ -2957,6 +3151,57 @@ width: 4vw;
         font-size: 2vw;
     }
 
+/*News 2 Page */
+.newsdate
+{
+    font-size: 1vw;
+}
+
+
+.newshead
+{
+    font-size: 1.6vw;
+}
+
+.newsdesc
+{
+    font-size: 1.4vw;
+}
+.imgnewsback img {
+    width: 92%;
+    height: 185px;
+}
+.col-sm-4.newsconnectionlinks {
+    width: 100%;
+   
+}
+.col-sm-8.newsbackdesc {
+    width: 100%;
+    margin-bottom: 21rem;
+}
+.connectionheader {
+    font-size: 1.8vw;
+}
+
+.descriptioncontainer
+{
+    top: 0;
+}
+.descriptioncontainermargin
+{
+    padding: 0;
+}
+.descnewslinks,.newsdate1 {
+    font-size: 1.7vw;
+}
+.newsdate {
+ 
+    margin-top: 200px;
+}
+.col-sm-4.newsconnectionlinks {
+    margin-top: 270px;
+}
+
 
 }
 
@@ -2974,7 +3219,15 @@ width: 4vw;
     }
 
     /*Header And Footer*/
-
+    a.showmoredescfooter:after {
+        position: absolute;
+        right: 9px;
+        bottom: 52px;
+        content: '';
+        width: 48px;
+        background-color: white;
+        height: 1px;
+    }
     .textcont {
         position: absolute;
         top: 32px;
@@ -3005,7 +3258,7 @@ width: 4vw;
         font-size: 5vw !important;
     }
 
-    .footer .col-sm-3 a,
+    .footer .col-sm-3 a,.footer .col-sm-3  a.showmoredescfooter,
     .com,
     .social i,
     .footercopy .sec {
@@ -3716,13 +3969,63 @@ width: 4vw;
 }
 
 
+/*News 2 Page */
+.newsdate
+{
+    font-size: 1vw;
+}
 
+
+.newshead
+{
+    font-size: 2vw;
+}
+
+.newsdesc
+{
+    font-size: 1.8vw;
+}
+.imgnewsback img {
+    width: 93%;
+    height: 185px;
+}
+.col-sm-4.newsconnectionlinks {
+    width: 100%;
+   
+}
+.col-sm-8.newsbackdesc {
+    width: 100%;
+    margin-bottom: 15rem;
+}
+.connectionheader {
+    font-size: 2vw;
+}
+
+.descriptioncontainer
+{
+    top: 0;
+}
+.descriptioncontainermargin
+{
+    padding: 0;
+}
+.descnewslinks,.newsdate1 {
+    font-size: 2vw;
+}
+.newsdate {
+ 
+    margin-top: 200px;
+}
+.col-sm-4.newsconnectionlinks {
+    margin-top: 270px;
+}
 
 
 
 
 }
 @media only screen and (max-width:400px){
+
 
 
     body {
@@ -3734,6 +4037,27 @@ width: 4vw;
     button.slide-arrow.prev-arrow.slick-arrow
     {
         display: none !important;
+    }
+    button.imgprev.slick-arrow img{
+        width: 6vw;
+        left: 25px;
+
+    }
+    button.imgnext.slick-arrow img {
+        width: 6vw;
+    
+        right: 2px;
+    }
+    .footer .col-sm-3 a
+    {
+        margin-bottom: 12px;
+    }
+    a.showmoredescfooter:after {
+        right: 9px;
+        bottom: 12px;
+        
+        width: 27px;
+  
     }
     .cardcon {
         position: absolute;
@@ -3757,26 +4081,26 @@ width: 4vw;
     }
     .textcont {
         position: absolute;
-        top: 32px;
+        top: 9px;
         bottom: -98px;
-        right: 133px;
+        right: 57px;
         direction: rtl;
         background-color: rgb(35, 31, 32);
         opacity: 0.71;
-        width: 65%;
-        height: 140px;
-        padding: 25px;
+        width: 43%;
+        height: 96px;
+        padding: 10px;
         color: white;
         bottom: 0px;
     }
 
-.apply {
-    width: 90px;
-    height: 30px;
-    color: #ffff;
-    font-size: 1.2vw;
-    margin-bottom: 25px;
-}
+    .apply {
+        width: 62px;
+        height: 13px;
+        color: #ffff;
+        font-size: 1.2vw;
+        margin-bottom: 25px;
+    }
 .next img {
   width: 3vw;
 }
@@ -3786,7 +4110,7 @@ width: 4vw;
     }
 
     .footer .col-sm-3 a,
-    .com,
+    .com,.footer .col-sm-3  a.showmoredescfooter,
     .social i,
     .footercopy .sec {
 
@@ -4374,7 +4698,7 @@ width: 4vw;
     }
 
     .dir img {
-        width: 10vw;
+        width: 14vw;
     }
 
     .tamweelsec .col-sm-4 {
@@ -4534,5 +4858,54 @@ width: 4vw;
 {
     margin-bottom: 20px;
 }
+/*News 2 Page */
+.newsdate
+{
+    font-size: 1vw;
+}
 
+
+.newshead
+{
+    font-size: 2vw;
+}
+
+.newsdesc
+{
+    font-size: 1.8vw;
+}
+.imgnewsback img {
+    width: 94%;
+}
+
+.col-sm-4.newsconnectionlinks {
+    width: 100%;
+  
+}
+.col-sm-8.newsbackdesc {
+    width: 100%;
+    margin-bottom: 18rem;
+}
+.connectionheader {
+    font-size: 2vw;
+}
+
+.descriptioncontainer
+{
+    top: 0;
+}
+.descriptioncontainermargin
+{
+    padding: 0;
+}
+.descnewslinks,.newsdate1 {
+    font-size: 2vw;
+}
+.newsdate {
+ 
+    margin-top: 200px;
+}
+.col-sm-4.newsconnectionlinks {
+    margin-top: 270px;
+}
 }

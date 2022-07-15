@@ -40,7 +40,9 @@
     font-display: swap;
 }
 
-
+.rangesec {
+    margin-right: 102px;
+}
 .hide {
     display: none;
     padding: 21px;
@@ -163,8 +165,15 @@ p.p1 {
 }
 
 
-
-
+.hide::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    background-color: #dddddd;
+    width: 1px;
+    top: 0;
+    right: 415px;
+}
 
 span.messegekeyword::after {
     position: absolute;
@@ -677,7 +686,12 @@ font-size: 14.14px;
     font-size: 15.22px;
     ;
 }
+.apply:hover
+{
+    background-color: #68d98c;
+    transition: 1.4s;
 
+}
 .visionsec {
     background-color: #f7f7f7;
     height: 359px;
@@ -741,8 +755,11 @@ color: #595959;
     text-decoration: none;
     width: 100%;
 text-align: right;
+position: relative;
 font-size: 13.93px;
 }
+
+
 
 
 .readmore::after {
@@ -750,15 +767,24 @@ font-size: 13.93px;
     top: 23px;
     background-color: #404040;
     content: '';
-    right: 16px;
+    left: 0;
+ 
     width: 66px;
     height: 1px;
 }
 
 .readsec {
-float: left;
-position: relative;
+    width: 100%;
+  text-align: left;
 }
+
+
+
+
+
+
+
+
 
 .tamweelkey {
     color: #595959;
@@ -766,21 +792,24 @@ position: relative;
     font-size: 34.08px;
     float: right;
 }
-
 .dir {
-    float: left;
+    
+    position: relative;
 }
 
+img.nextdir {
+    margin-left: 71px;
+}
+
+.dir img {
+    position: absolute;
+    left: 0;
+}
 .nextdir {
     border-radius: 50%;
     background-color: #dddd;
-
     padding: 20px;
 }
-
-
-
-
 .tamweelsec {
     position: relative;
     width: 100%;
@@ -897,10 +926,36 @@ padding: 64px 45px;;
 {
     padding-right: 114px;
 }
-.tamweeldesc
-{
-    background-color: black;
+
+.col-sm-6.directions {
+    /* width: 100%; */
+    text-align: left;
 }
+
+span.leftarrow {
+    background-color: #98c93c;
+
+ 
+    padding: 21px;
+    border-radius: 50%;
+}
+
+span.rightarrow {
+    background-color: #ededed;
+    padding: 21px;
+    border-radius: 50%;
+}
+
+button.imgprev.slick-arrow {
+    display: contents !important;
+}
+
+
+button.imgnext.slick-arrow {
+    display: contents !important;
+}
+
+
 
 .infohead {
     font-family: 'Janna LT';
@@ -1014,6 +1069,22 @@ button.slide-arrow.prev-arrow.slick-arrow
     padding-top: 57px;
 }
 
+
+.footer .col-sm-3  a.showmoredescfooter{
+    font-size: 14.47px;
+    font-family: 'CoconNextArabic';
+}
+
+a.showmoredescfooter:after {
+    position: absolute;
+  
+    right: 9px;
+    bottom: 23px;
+    content: '';
+    width: 66px;
+    background-color: white;
+    height: 1px;
+}
 .suppliersec {
     background-color: #fcfcfc;
     margin-bottom: 45px;
@@ -1022,6 +1093,7 @@ button.slide-arrow.prev-arrow.slick-arrow
 
 .company {
     color: white;
+    position: relative;
 }
 .partnersec
 {
@@ -1029,7 +1101,10 @@ button.slide-arrow.prev-arrow.slick-arrow
 }
 
 .com {
-    margin-bottom: 23px;
+
+    font-size: 13.93 px;
+    font-family: 'CoconNextArabic';
+    color: white;
 }
 
 .contactsec
@@ -1123,13 +1198,12 @@ border: 1px solid #94c33c;
     border: 1px solid #ebebeb;
 }
 .social i {
-
     color: white;
     text-align: center;
     border-radius: 3px;
     display: inline-block;
     padding: 2px;
-
+    margin-right: 10px;
 }
 .suggestkey
 {    margin-bottom: 37px;
@@ -1139,8 +1213,8 @@ border: 1px solid #94c33c;
     font-size: 20.79px;
 }
 .social i:hover {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: #373737;
     text-align: center;
     border-radius: 3px;
     display: inline-block;
@@ -1159,9 +1233,10 @@ border: 1px solid #94c33c;
     text-decoration: none;
     display: block;
     color: #ffff;
-    font-size: 16px;
-    margin-bottom: 18px;
+    font-size: 15.64px;
+
     margin-bottom: 23px;
+    font-family: 'Janna LT';
 }
 
 .footer .col-sm-3 a:hover {
@@ -1182,11 +1257,10 @@ border: 1px solid #94c33c;
 
 .footercopy .sec {
     font-family: 'Janna LT';
-    font-size: 14.79px;
+    font-size: 12.86px;
     padding-bottom: 18px;
     color: white;
 }
-
 .footercopy {
     background-color: #373737;
     direction: rtl;
@@ -1540,9 +1614,7 @@ margin-bottom: 46px;
 @keyframes hoversenbtncomp {
     50% {
         
-        border: 2px solid #dddddd;
-        background-color: #9a9a9a;
-  color: black;
+        background-color: #98c93c;
     
     }
   }
@@ -2032,7 +2104,7 @@ select.selecttype {
 .newsdate {
     color: #506470;
     font-size: 12.99px;
-    margin-top: 68px;
+    margin-top: 102px;
     font-family: 'Janna LT';
     margin-bottom: 17px;
 }
@@ -2094,21 +2166,14 @@ button.imgnext.slick-arrow img {
 
 
 
-.newstwosection
-{
-    margin-bottom: 200px;
+.newstwosection {
+    margin-bottom: 71px;
 }
-.col-8.newsbackdesc {
-    padding: 50px;
-    /* height: 731px; */
-}
-
-
 .col-9.descanddate {
     color: #343434;
-
     font-size: 11.95px;
     font-family: 'Janna LT';
+    width: 63%;
 }
 .col-3.newsconnectionlinks {
     border-radius: 26px;
@@ -2118,20 +2183,42 @@ button.imgnext.slick-arrow img {
     height: 788px;
 }
 
+.descnewslinks {
+    font-size: 11.95px;
+    color: #343434;
+    font-family: 'Janna LT';
+}
+#srinp {
+ 
+    display: none;
+    color: #8b8585;
+  }
+  #srinp:focus
+  {
+    outline: none;
+  }
+
 .connectionheader {
     background-color: rgb(151, 200, 59);
-    width: 100%;
     height: 57px;
+
     color: white;
     padding: 20px;
     border-radius: 26px 26px 0px 0px;
 }
 
 .news1.row {
-    padding: 20px;
+    width: 100%;
+    height: 115px;
 }
+
 .newsconnection {
     position: relative;
+    border-radius: 0px 0px 26px 26px;
+    padding: 22px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.22);
+   
 }
 .newsbackdesc
 {
@@ -2183,6 +2270,9 @@ visibility: visible;
 .imgshadowtamweel
 {
     position: relative;
+}
+.tags img{
+    margin-bottom: 18px;
 }
 .tamweelhover{
     display: none;
